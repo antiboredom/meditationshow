@@ -16,7 +16,7 @@ void Looper::setup(string path, float _x, float _y, int _offset, int _total){
   offset = _offset;
   total = _total;
   drawFunction = rand() % 4;
-  drawFunction = 1;
+  //drawFunction = 1;
   
   buffers.clear();
   
